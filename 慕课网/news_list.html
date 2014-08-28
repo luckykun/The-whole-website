@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>慕课网</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css"  href = "style/main.css">
+  </head>
+
+  <body>
+  <div id="top">
+  	<div class="top_content">
+  		<ul>
+  			<li><a href="#">联系我们</a></li>
+  			<li><a href="#" onclick="AddFavorite(window.location, document.title)">加入收藏</a></li>
+  			<li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+  		</ul>
+  	</div>
+  </div><!-- top区域结束 -->
+
+  <div id="wrap">
+  	<div class="logo">
+  		<div class="logo_left">
+  		   <a href="index.html"><img src="images/logo.jpg" alt="慕课网" /></a>
+  		</div>
+  		<div class="logo_right">
+  		   <img src="images/tel.jpg"/>24小时服务热线：<span class="tel">182-0039-0386</span>
+  		</div>
+  	</div><!-- logo区域结束 -->
+
+  	<div class="nav">
+  		<div class="nav_left"></div>
+  		<div class="nav_area">
+  			<ul>
+  			    <li class="active"><a href="index.html">首页</a></li>
+  				<li><a href="#">关于慕课</a></li>
+  				<li><a href="#">新闻动态</a></li>
+  				<li><a href="#">课程中心</a></li>
+  				<li><a href="#">在线课程</a></li>
+  				<li><a href="#">人才招聘</a></li>
+  			  </ul>	
+  		</div>
+  		<div class="search_area">
+  			<form action="#" method="post">
+  				<input type="text"/>
+  				<a href="#"><img src="images/search.jpg" /></a>
+  			</form>
+  		</div>
+  		<div class="nav_right"></div>   
+  	</div><!-- nav区域结束 -->
+
+  	<div id="boxID" style="width:1000px;height: 244px;">
+  	  <img src="images/pic_banner/ad1.jpg" style="width:1000px;height: 244px;" />
+  	</div><!-- 广告图片区域结束 -->
+
+  	<div class="lists_area">
+      <div class="lists_left">
+        <h2>新闻中心</h2>
+        <ul >
+          <li><a href="news_list.html">公司新闻</a></li>
+          <li><a href="news_list.html">行业新闻</a></li>
+          <li><a href="news_list.html">媒体报道</a></li>
+          <li><a href="news_list.html">活动专题</a></li>
+          <li><a href="news_list.html">精彩视频</a></li>
+          <li><a href="news_list.html">资源下载</a></li>
+          <li><a href="news_list.html">公司内刊</a></li>
+      </ul>
+      </div><!-- 新闻中心左边区域结束 -->
+      <div class="lists_right">
+        <h2>新闻中心</h2>
+        <ul class="lists" style="width: 790px;">
+          <li><a href="news.html">【慕课网新活动】“有力屌丝”在民间</a><span>2014-06-01</span></li>
+          <li><a href="news.html">【有奖活动】黄骏国哦哈给我</a><span>2014-06-11</span></li>
+          <li><a href="news.html">【程序员的法宝】化工阿红将偶爱玩人</a><span>2014-06-24</span></li>
+          <li><a href="news.html">【慕课公告】你公司为哦</a><span>2014-06-29</span></li>
+          <li><a href="news.html">【慕课免费话费】灰褐色股份股份而</a><span>2014-07-08</span></li>
+          <li><a href="news.html">【慕课精英】和祭祀哦更换为偶尔给</a><span>2014-07-21</span></li>
+          <li><a href="news.html">【今日有奖问答】红AGP文件和团购奶粉</a><span>2014-07-31</span></li>
+          <li><a href="news.html">【快乐程序员】结婚法规欧文和奇偶凤凰山</a><span>2014-08-01</span></li>
+          <li><a href="news.html">【邮件问答反馈】奇偶江波红泥屋</a><span>2014-08-17</span></li>
+          <li><a href="news.html">【上期中奖观众】ISO价格无花果欧文和人</a><span>2014-08-19</span></li>
+          <li><a href="news.html">【邮件问答反馈】奇偶江波红泥屋</a><span>2014-08-17</span></li>
+          <li><a href="news.html">【上期中奖观众】ISO价格无花果欧文和人</a><span>2014-08-19</span></li>
+          <li><a href="news.html">【邮件问答反馈】奇偶江波红泥屋</a><span>2014-08-17</span></li>
+          <li><a href="news.html">【上期中奖观众】ISO价格无花果欧文和人</a><span>2014-08-19</span></li>
+      </ul>
+      </div><!-- 新闻中心右边区域结束 -->
+    </div><!-- wrap区域结束 -->
+  <div id="footer">
+  	<div class="footer_area" style="float: left;">
+  	   <div class="footer_about">
+  	   	  <ul>
+  			    <li>关于</li>
+  			    <li><a href="#">品牌故事</a></li>
+  			    <li><a href="#">劲爆活动</a></li>
+  			    <li><a href="#">联系我们</a></li>
+  			    <li><a href="#">加入我们</a></li>
+  		    </ul>
+  	   </div><!-- "关于"区域结束 -->
+  	   <div class="footer_lesson">
+  	   	  <ul>
+  			    <li>课程</li>
+  			    <li><a href="#">前端开发</a></li>
+  			    <li><a href="#">PHP开发</a></li>
+  			    <li><a href="#">JAVA开发</a></li>
+  			    <li><a href="#">C++开发</a></li>
+  		    </ul>
+  	   </div><!-- "课程"区域结束 -->
+  	   <div class="footer_focus">
+  	   	  <ul>
+  			    <li>关注</li>
+  			    <li><a href="#">新浪微博</a></li>
+  			    <li><a href="#">腾讯微博</a></li>
+  			    <li><a href="#">官方博客</a></li>
+  			    <li><a href="#">官方网站</a></li>
+  		    </ul>
+  	   </div><!-- "关注"区域结束 -->
+  	   <div class="footer_message">
+  	   	  <ul>
+  			    <li>留言</li>
+  			    <li><a href="#">意见反馈</a></li>
+  			    <li><a href="#">问题留言</a></li>
+  			    <li><a href="#">提交漏洞</a></li>
+  			    <li><a href="#">论坛讨论</a></li>
+  		    </ul><!-- "留言"区域结束 -->
+  	   </div>
+  	   <div class="footer_weixin">
+  	      <h2><img src="images/weixin.png" />关注微信</h2>
+  	      <p><img src="images/wx_code.jpg" /></p>
+  	   </div><!-- 微信区域结束 -->
+  	</div>
+  </div><!-- footer区域结束 -->
+</div>
+  </body>
+</html>

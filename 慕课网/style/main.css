@@ -1,0 +1,99 @@
+body,ul,p,h1,h2{padding:0;margin: 0;font-size: 12px;}
+img, input {border: none;}
+li {list-style: none;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+body {background: #f4f4f4;}
+/*top区域样式表*/   /*min-width是最小宽度*/
+#top {min-width:1000px;width: 100%;height: 28px;background: url(../images/top_bg.jpg) repeat-x;}
+.top_content {width: 1000px;height: 28px;margin: 0 auto;}
+.top_content li {list-style-image: url(../images/li_bg.gif);width: 70px;line-height: 28px;float: right;}
+.top_content a {color: #999;}
+.top_content a:hover {text-decoration: none;color: red;}
+
+/*在图片上设置vertical-align: middle;可以使后面的文字居中显示*/
+#wrap {width: 1000px;margin: 0 auto;}
+.logo {height: 80px;background: #fff;}
+.logo_left {width: 200px;height: 80px; float: left;}
+.logo_right {width: 270px;float: right;margin-top:  26px;color: #8e8e8e;}
+.logo_right img {padding-right: 10px; vertical-align: middle;}
+.logo_right span {color: #c00;font-size: 16px;font-family: '微软雅黑';}
+
+/*导航和搜索框的样式表*/
+.nav {width: 1000px;height: 40px;}
+.nav_left {float: left;width: 10px;height: 40px; background: url(../images/nav_left_bg.jpg) no-repeat;}
+.nav_right {float: left; width: 10px;height: 40px;background: url(../images/nav_right_bg.jpg) no-repeat;}
+.nav_area {width:700px;height: 40px;float: left;background: url(../images/nav_bg.jpg) repeat-x;}
+.nav_area li {float: left;list-style: none;width: 100px;line-height: 40px;text-align: center;}
+.nav_area a {font-size:16px;font-family: '微软雅黑';font-weight: bold;color: #fff;}
+.nav_area a:hover {text-decoration: none;color: #c00;}
+.search_area {float: left; width: 280px;height: 40px;background: url(../images/nav_bg.jpg) repeat-x;}
+.search_area input {width: 180px;height:26px;margin-top: 6px;float: left;font-size: 14px;}
+.search_area img {width: 26px;height: 28px;float: left;margin-top: 6px;}
+
+/*广告轮播效果样式表*/
+#boxID {width: 1000px;height: 310px;overflow: hidden;}
+#boxID li img{width: 1000px;height: 310px;}
+
+.wrap_content {width: 1000px;height: 230px;background: #fff;}
+/*新闻中心的样式表*/
+.news {width: 306px;height: 220px;float: left;margin-top: 6px;}
+.news h1 {width: 306px;height: 30px;position: relative;border: 1px solid #f4f4f4;}
+.news h1 span, .lessons h1 span, .media h1 span {line-height: 30px; color: #786f66;position: absolute;left: 20px;font-family: '微软雅黑';font-size: 14px;}
+.news h1 img, .lessons h1 img, .media h1 img {width: 36px;height: 8px;position: absolute;right:10px;top: 10px;}
+.news_area {width: 306px;height: 190px;border: 1px solid #f4f4f4;}
+.news_area img {width:114px;height: 88px;padding: 6px;float: left;}
+.intro {width: 180px;height: 88px;margin-top:6px;float: left;}
+.intro h2 a, .news .intro h1 a {color: #cc0000;line-height: 22px;}
+.intro p {line-height: 22px;}
+.intro strong {font-weight: normal;line-height: 22px;font-size: 12px;}
+.lists {width: 306px;height: 90px;clear: left;margin-top: 6px;}
+.lists li {list-style-image: url(../images/news/list_bg.jpg);height:20px;line-height:20px;border-bottom: 1px solid #f4f4f4; margin-left: 20px;padding-right: 4px;}
+.lists a {color: #000;}
+.lists a:hover {color: #999;text-decoration: none;}
+.lists span {float: right;color: #999;}
+
+/*课程中心的样式表*/
+.lessons {width: 440px;height: 220px;float: left;margin-top: 6px;margin-left: 6px;}
+.lessons h1 {width: 440px;height: 30px;position: relative;border: 1px solid #f4f4f4;}
+.lessons_area {width: 440px;height: 184px;border: 1px solid #f4f4f4;padding-top: 6px;position: relative;}
+.lessons_area img {width: 158px;height: 106px;padding:0px 6px;float: left;}
+.lessons_area strong a {color: #cc0000;height: 24px;line-height: 24px;}
+.lessons_area span {color: #000;height: 20px;line-height: 20px;}
+.lessons_area ul {width: 440px;height: 20px;clear: both;position: absolute;bottom: 26px;}
+.lessons_area li {width: 110px;height: 20px;text-align: center;float: left;}
+.lessons_area ul a {color: #000;font-size: 14px;font-weight: bold;}
+.lessons_area ul a:hover {color: #999;text-decoration: none;}
+
+/*视频聚焦的样式表*/
+.media {width: 242px;height: 220px;margin-left: 6px;margin-top: 6px;float: left;}
+.media h1 {width: 242px;height: 30px;position: relative;border: 1px solid #f4f4f4;}
+.video {width: 234px;height: 142px;border: 1px solid #E8E8E8;padding-left: 6px;}
+.media_area img {width: 240px;height: 42px;border: 1px solid #E8E8E8;margin-top: 4px;}
+
+/*页脚部分的样式表*/
+#footer {min-width:1000px;width: 100%;height: 160px; }
+.footer_area {width: 1000px;height: 160px;margin: 0 auto;background:#e9e9e9;margin-top: 6px;}
+.footer_about, .footer_lesson, .footer_focus, .footer_message, .footer_weixin {width: 194px;height: 140px;float: left;margin-top: 20px;background: url(../images/line.png) no-repeat right;}
+#footer .footer_weixin {background: none;}
+ .footer_weixin {position: relative;left: 40px;top: -4px;}
+.footer_about li, .footer_lesson li, .footer_focus li, .footer_message li {width: 194px;text-align: center;font-size: 16px;font-weight: bold; color: #786f66;height: 24px;line-height: 24px;}
+.footer_about a, .footer_lesson a, .footer_focus a, .footer_message a  {font-size: 12px;font-weight:normal;color: #786f66;}
+.footer_about a:hover, .footer_lesson a:hover, .footer_focus a:hover, .footer_message a:hover {color: #cc0000;}
+.footer_weixin h2 {width: 190px;height: 26px;color: #786f66;}
+.footer_weixin h2 img {width: 30px;height: 26px;vertical-align: middle;}
+.footer_weixin p img {width: 100px;height: 100px;}
+
+/*中间新闻中心区域的样式*/
+.lists_area {width: 1000px;min-height: 300px;margin-top: 6px;}
+.lists_left {width: 200px;height:300px;border:1px solid #E8E8E8; float: left;background-color: #fff;}
+.lists_left h2 {font-size: 16px;font-family: '微软雅黑';height: 35px;line-height: 35px;color: #666;background: url(../images/title_bg.gif) repeat-x; padding-left: 20px;}
+.lists_left li {width: 200px; height:30px;line-height: 30px;}
+.lists_left li a {font-size: 14px;color: #666;background: url(../images/li_bg.gif) no-repeat left; padding-left: 16px;display: block;}
+.lists_left li a:hover {color: #f00;background:url(../images/li_bg2.gif) no-repeat left;background-color: #E8E8E8;text-decoration: none;}
+.lists_right {width: 790px;min-height: 300px; float: right;border: 1px solid #E8E8E8;background-color: #fff;}
+.lists_right h2 {font-size: 16px;font-family: '微软雅黑';height: 35px;line-height: 35px;color: #666;background: url(../images/type_bg.png) repeat-x; padding-left: 20px;}
+
+.lists_right h1 {font-family: '微软雅黑';font-size: 20px;text-align: center;margin: 10px 0px;}
+.news_info {text-align: center;color: #666;}
+.lists_newsContent {font-size: 16px;padding:10px;line-height: 24px;text-indent: 2em;}

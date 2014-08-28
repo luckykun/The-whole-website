@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>慕课网</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/setHomeSetFav.js" charset="gb2312"></script><!-- 引入设置首页和加入收藏的js文件 -->
+    <script type="text/javascript" src="js/myfocus.js"></script><!-- 引入myFocus库文件 -->
+    <script type="text/javascript" src="js/mF_classicHC.js"></script><!-- 引入mF_classicHC风格的js文件 -->
+
+    <link rel="stylesheet" type="text/css"  href = "style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/mF_classicHC.css"><!-- 引入mF_classicHC风格的css文件 -->
+    <script type="text/javascript">
+        myFocus.set({id:'boxID', pattern:'mF_classicHC'});
+    </script>
+  </head>
+
+  <body>
+  <div id="top">
+  	<div class="top_content">
+  		<ul>
+  			<li><a href="#">联系我们</a></li>
+  			<li><a href="#" onclick="AddFavorite(window.location, document.title)">加入收藏</a></li>
+  			<li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
+  		</ul>
+  	</div>
+  </div><!-- top区域结束 -->
+
+  <div id="wrap">
+  	<div class="logo">
+  		<div class="logo_left">
+  		   <a href="index.html"><img src="images/logo.jpg" alt="慕课网" /></a>
+  		</div>
+  		<div class="logo_right">
+  		   <img src="images/tel.jpg"/>24小时服务热线：<span class="tel">182-0039-0386</span>
+  		</div>
+  	</div><!-- logo区域结束 -->
+
+  	<div class="nav">
+  		<div class="nav_left"></div>
+  		<div class="nav_area">
+  			<ul>
+  			    <li class="active"><a href="index.html">首页</a></li>
+  				<li><a href="#">关于慕课</a></li>
+  				<li><a href="#">新闻动态</a></li>
+  				<li><a href="#">课程中心</a></li>
+  				<li><a href="#">在线课程</a></li>
+  				<li><a href="#">人才招聘</a></li>
+  			  </ul>	
+  		</div>
+  		<div class="search_area">
+  			<form action="#" method="post">
+  				<input type="text"/>
+  				<a href="#"><img src="images/search.jpg" /></a>
+  			</form>
+  		</div>
+  		<div class="nav_right"></div>   
+  	</div><!-- nav区域结束 -->
+
+  	<div id="boxID">
+  	    <div class="loading"><img src="images/pic_banner/loading.gif" alt="请稍等..."></div>
+  		<div class="pic">
+  			<ul>
+  				<li><img src="images/pic_banner/ad1.jpg" text="这是图片1的说明" /></li>
+  				<li><img src="images/pic_banner/ad2.jpg" text="这是图片2的说明" /></li>
+  				<li><img src="images/pic_banner/ad3.jpg" text="这是图片3的说明" /></li>
+  			</ul>
+  		</div>
+  	</div><!-- 广告轮播区域结束 -->
+  	<div class="wrap_content">
+      <div class="news">
+    	<h1><span>新闻中心</span><a href="news_list.html"><img src="images/more.jpg"></a></h1>
+    	<div class="news_area">
+    		<img src="images/news/news3.jpg" />
+    		<div class="intro">
+    			<h2><a href="news_list.html">5.20  慕女神喊你去表白！</a></h2>
+    			<p>活动时间：5月20日——5月24日</p>
+    			<strong>获奖公布时间：5月24日</strong>
+    			<h1><a href="news_list.html">show more...</a></h1>
+    		</div>
+    		<ul class="lists">
+    			<li><a href="news_list.html">价格i价格i偶尔干啥更划算</a><span>2014-5-10</span></li>
+    			<li><a href="news_list.html">价格i价格i偶尔干啥更划算</a><span>2014-6-16</span></li>
+    			<li><a href="news_list.html">价格i价格i偶尔干啥更划算</a><span>2014-7-15</span></li>
+    			<li><a href="news_list.html">价格i价格i偶尔干啥更划算</a><span>2014-8-18</span></li>
+    		</ul>
+    	</div>
+      </div><!-- 新闻中心区域结束 -->
+
+      <div class="lessons">
+    	<h1><span>课程中心</span><a href="#"><img src="images/more.jpg"></a></h1>
+    	<div class="lessons_area">
+    		<p><img src="images/lesson.jpg" /><strong><a href="#">css题目</a></strong><br><span>极爱哦架构i阿囧规划和个人和孤儿河谷核辐射孤儿和孤儿和规范热河孤儿几点干活的闪光灯各认购和融合供热高V大似乎更高建瓯蒋经国i将第四欧冠交割日机构而二级合格i惹急哦价格e将无</span></p>
+    		<ul>
+    			<li><a href="#">前端开发</a></li>
+    			<li><a href="#">Java开发</a></li>
+    			<li><a href="#">PhP开发</a></li>
+    			<li><a href="#">c++开发</a></li>
+    		</ul>
+    	</div>
+      </div><!-- 课程中心区域结束 -->
+
+      <div class="media">
+        <h1><span>视频聚焦</span><a href="#"><img src="images/more.jpg"></a></h1>
+        <div class="media_area">
+            <div class="video">
+               <embed src="http://player.youku.com/player.php/sid/XNzQxMjU2ODI0/v.swf" allowFullScreen="true" quality="high" width="230" height="140" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+            </div>
+          <img src="images/app.jpg" />
+        </div>
+      </div><!-- 视频聚焦区域结束 -->
+    </div>
+  </div><!-- wrap区域结束 -->
+
+  <div id="footer">
+  	<div class="footer_area">
+  	   <div class="footer_about">
+  	   	  <ul>
+  			    <li>关于</li>
+  			    <li><a href="#">品牌故事</a></li>
+  			    <li><a href="#">劲爆活动</a></li>
+  			    <li><a href="#">联系我们</a></li>
+  			    <li><a href="#">加入我们</a></li>
+  		    </ul>
+  	   </div><!-- "关于"区域结束 -->
+  	   <div class="footer_lesson">
+  	   	  <ul>
+  			    <li>课程</li>
+  			    <li><a href="#">前端开发</a></li>
+  			    <li><a href="#">PHP开发</a></li>
+  			    <li><a href="#">JAVA开发</a></li>
+  			    <li><a href="#">C++开发</a></li>
+  		    </ul>
+  	   </div><!-- "课程"区域结束 -->
+  	   <div class="footer_focus">
+  	   	  <ul>
+  			    <li>关注</li>
+  			    <li><a href="#">新浪微博</a></li>
+  			    <li><a href="#">腾讯微博</a></li>
+  			    <li><a href="#">官方博客</a></li>
+  			    <li><a href="#">官方网站</a></li>
+  		    </ul>
+  	   </div><!-- "关注"区域结束 -->
+  	   <div class="footer_message">
+  	   	  <ul>
+  			    <li>留言</li>
+  			    <li><a href="#">意见反馈</a></li>
+  			    <li><a href="#">问题留言</a></li>
+  			    <li><a href="#">提交漏洞</a></li>
+  			    <li><a href="#">论坛讨论</a></li>
+  		    </ul><!-- "留言"区域结束 -->
+  	   </div>
+  	   <div class="footer_weixin">
+  	      <h2><img src="images/weixin.png" />关注微信</h2>
+  	      <p><img src="images/wx_code.jpg" /></p>
+  	   </div><!-- 微信区域结束 -->
+  	</div>
+  </div><!-- footer区域结束 -->
+  </body>
+</html>

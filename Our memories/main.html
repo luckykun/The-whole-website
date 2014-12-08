@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Our memories</title>
+	<meta name="description" content="我们的回忆" />
+  	<meta name="keywords" content="Our memories, 欢乐，回忆" />
+  	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" type="text/css" href="styles/tying.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css" />
+	<link rel="stylesheet" type="text/css" href="styles/mF_YSlider.css" />
+	<link rel="stylesheet" type="text/css" href="styles/component.css">
+
+	<script src="http://cdn.staticfile.org/jquery/1.9.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/text_illate.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/myfocus.js"></script>
+	<script type="text/javascript" src="js/mF_YSlider.js"></script>
+	<script type="text/javascript">
+		 myFocus.set({id:'boxID',time:4, pattern:'mF_YSlider'});
+	</script>
+
+</head>
+<body>
+    <!-- 开始侧边导航区域 -->
+    <div id="st-container" class="st-container">
+		<nav class="st-menu st-effect-11" id="menu-11">
+			<h2 class="icon icon-lab">Our memories</h2>
+			<ul>
+				<li><a href="#">曾经的点滴</a></li>
+				<li><a href="#">回忆有快乐</a></li>
+				<li><a href="#">回忆有悲伤</a></li>
+				<li><a href="#">一起爱对方</a></li>
+				<li><a href="#">创建新回忆</a></li>
+				<li><a href="#">未来好时光</a></li>
+				</ul>
+			</nav>	
+	</div>
+    <!-- 结束侧边导航区域 -->
+
+    <!-- 开始头部导航 -->
+	<div id="header">
+	    <div class="top_nav">
+	    	<div class="playground">
+    			<div class="tlt">
+        			<ul class="texts" style="display: none">
+           			  <li>This is a beautiful website of our love</li>
+            		  <li>I just want to tell you that i love you forever by it</li>
+            		  <li>If you need me, i'm always here.</li>
+        			</ul>
+    			</div>
+    			<form>
+          			<select data-key="effect" data-type="in"></select>
+          			<select data-key="type" data-type="in"></select>
+          			<select data-key="effect" data-type="out"></select>
+          			<select data-key="type" data-type="out"></select>
+    			</form>
+  			</div>
+	    	<div id="st-trigger-effects" class="column">
+			    <button data-effect="st-effect-11">显示菜单</button>
+		    </div>
+	    </div>	
+	</div>
+	<!-- 结束头部导航 -->
+
+	<!-- 开始首页左边部分 -->
+	<div id="main_content">
+		<div id="main_left">
+		    <div class="wall_title">Photos Wall</div>
+			<ul class="wall_top">
+				<li id="wall_frame" class="img_01"><img src="images/wall_pic/pic1.jpg"/><p>倩倩520</p></li>
+				<li id="wall_frame" class="img_02"><img src="images/wall_pic/pic13.jpg" /><p>有气质^_^</p></li>
+				<li id="wall_frame" class="img_03"><img src="images/wall_pic/pic3.jpg" /><p>萌妹子呀！</p></li>
+				<li id="wall_frame" class="img_04"><img src="images/wall_pic/pic4.jpg" /><p>和倩倩合影</p></li>
+			</ul>
+			<ul class="wall_bottom">
+				<li id="wall_frame" class="img_05"><img src="images/wall_pic/pic5.jpg" /><p>我在城厢</p></li>
+				<li id="wall_frame" class="img_06"><img src="images/wall_pic/pic6.jpg" /><p>它拴着我们</p></li>
+				<li id="wall_frame" class="img_07"><img src="images/wall_pic/pic8.jpg" /><p>唯美的倩倩</p></li>
+				<li id="wall_frame" class="img_08"><img src="images/wall_pic/pic9.jpg" /><p>唯美的我们</p></li>
+			</ul>
+		</div>
+		<!-- 结束首页左边部分 -->
+
+		<!-- 开始首页右边部分 -->
+		<div id="main_right">
+			<div id="boxID">
+		       <div class="loading"><img src="images/loading.gif" alt="请稍等..."></div>
+		       <div class="pic">
+		           <ul>
+			  	      <li><img src="images/pic_banner/ad1.jpg" text="这可是第一次如此尽心尽力的表白啊！不过爱就是要大声喊出来！" /></li>
+			  	      <li><img src="images/pic_banner/ad2.jpg" text="庞大的鸟巢，渺小的倩倩..." /></li>
+			  	      <li><img src="images/pic_banner/ad3.jpg" text="这样亲倩倩，真是太浪漫了，感觉超赞！" /></li>
+		  	       </ul>
+	  	       </div>
+	       </div>
+	       <div id="boxMusic">
+	       	 <audio controls="controls" autoplay="autoplay" loop="loop">
+	       	    <source src= "music/Breathless.mp3" type="audio/mp3">
+				<source src="music/我们的回忆.mp3" type="audio/mp3">
+			 </audio>
+	       </div>
+		</div>
+	    <!-- 结束首页右边部分 -->
+	</div>
+
+	<!-- 开始底部部分 -->
+	<div id="footer">
+		<p>All rights of the website is reserved by me.</p>
+	</div>
+	<!-- 结束底部部分 -->
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/sidebarEffects.js"></script>
+	<script>
+  		$(function (){
+    		var log = function (msg) {
+      		return function () {
+        	if (console) console.log(msg);
+     			 }
+    		}
+
+    	var animateClasses = 'flash fadeInLeftBig bounceOut hinge';
+    	var $form = $('.playground form')
+      	, $tlt = $('.playground .tlt');
+    	var getFormData = function () {
+    	var data = { 
+        	loop: true, 
+        	in: { callback: log('in callback called.') }, 
+        	out: { callback: log('out callback called.') }
+      	};
+      
+    	$form.find('[data-key="effect"]').each(function () {
+    	var $this = $(this)
+        	, key = $this.data('key')
+        	, type = $this.data('type');
+        	data[type][key] = $this.val();
+     		 });
+      	return data;
+    	};
+
+    	$.each(animateClasses.split(' '), function (i, value) {
+      	var type = '[data-type]'
+       	 , option = '<option value="' + value + '">' + value + '</option>';
+
+      	if (/Out/.test(value) || value === 'hinge') {
+        	type = '[data-type="out"]';
+      	} else if (/In/.test(value)) {
+        	type = '[data-type="in"]';
+      	} 
+
+      	if (type) {
+        	$form.find('[data-key="effect"]' + type).append(option);           }
+    	});
+
+    	$form.find('[data-key="effect"][data-type="in"]').val('fadeInLeftBig');
+    	$form.find('[data-key="effect"][data-type="out"]').val('bounceOut');
+    	$form.on('change', function () {
+      		var obj = getFormData();
+      		$tlt.textillate(obj);
+    	}).trigger('change');
+  	});
+	</script>
+</body>
+</html>
